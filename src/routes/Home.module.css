@@ -1,0 +1,15 @@
+.container {
+  width: 85%;
+  height: 100%;
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.movies {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 30px;
+  justify-content: flex-start;
+}
